@@ -11,11 +11,13 @@
     <header>
         <nav>
             <ul>
-                <li><a href="./">Home</a></li>
-                <li><a href="./pagina_profilo">Pagina profilo</a></li>
-                <li><a href="./pagina_carrello">Carrello</a></li>
+                <li><a href={{ route('home') }}>Home</a></li>
+                <li><a href={{ route('profilo') }}>Pagina profilo</a></li>
+                <li><a href={{ route('carrello') }}>Carrello</a></li>
             </ul>
         </nav>
+
+        <h3>{{ $testo_prova }}</h3>
     </header>
     <main></main>
     <footer></footer>
